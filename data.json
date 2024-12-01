@@ -1,0 +1,25 @@
+[
+    {
+        "data3":"data",
+        "data2":1,
+        "data1": true
+
+    },
+    {
+        "column1":"data",
+        "column2":["data1","data2","data3"],
+        "column3":{
+            "data1":false
+        }
+    },
+    {
+        "column1":2,
+        "column2":true,
+        "column3":2.3
+    },
+    {
+        "dat1":"new",
+        "data1":true,
+        "data3":4.2
+    }
+]

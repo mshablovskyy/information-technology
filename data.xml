@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datatable>
+    <table>
+        <header1 column='One'>Data 1</header1>
+        <header2 column='Two'>Data 2</header2>
+        <header3 column='Three'>Data 3</header3>
+    </table>
+    <row1>
+        <column1 info='nd'>Data1</column1>
+        <column2 info='d'>Data2</column2>
+        <column3 info='d'>Data3</column3>
+    </row1>
+    <row2>
+        <column1 info='non'>Data1</column1>
+        <column2 info='n'>Data2</column2>
+        <column3 info='no'>Data3</column3>
+    </row2>
+    <row3>
+        <column1 info='n'>Data1</column1>
+        <column2 info='non'>Data2</column2>
+        <column3 info='none'>Data3</column3>
+    </row3>
+</datatable>
