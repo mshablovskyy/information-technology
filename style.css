@@ -31,3 +31,17 @@ th {
     background-color: #000;
     color: #fff;
 }
+
+
+.image-container {
+    display: flex;
+    gap: 1cm; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.image-container img {
+    width: 150px; 
+    height: 150px; 
+    border: 2px solid black; 
+}
