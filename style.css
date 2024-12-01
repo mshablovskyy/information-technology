@@ -118,3 +118,23 @@ a {
 a:hover {
     background-color: lightgray;
 }
+
+/* Box around the list */
+.team-list {
+    border: 2px solid black; /* Solid border around the list */
+    padding: 10px; /* Space between the border and the text */
+    width: fit-content; /* Adjust the box size to fit the content */
+    margin: 20px auto; /* Center the list horizontally */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+/* Styling for the list */
+.team-list ol {
+    padding-left: 20px; /* Indent the list */
+    margin: 0; /* Remove extra margin around the list */
+}
+
+/* Styling for list items */
+.team-list li {
+    font-weight: bold; /* Makes the text bold */
+}
