@@ -10,7 +10,8 @@ body {
     background-color: #f4f4f4;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #000;
     padding: 10px;
     text-align: center;
@@ -23,43 +24,60 @@ th {
 
 /* Navigation Menu */
 nav {
-    position: fixed; /* Sticks the menu to the top of the page */
+    position: fixed;
+    /* Sticks the menu to the top of the page */
     top: 0;
     left: 0;
-    width: 100%; /* Makes the menu span the entire width */
-    background-color: #333; /* Dark background */
-    padding: 10px 0; /* Adds some vertical padding */
-    z-index: 1000; /* Ensures it stays above other content */
+    width: 100%;
+    /* Makes the menu span the entire width */
+    background-color: #333;
+    /* Dark background */
+    padding: 10px 0;
+    /* Adds some vertical padding */
+    z-index: 1000;
+    /* Ensures it stays above other content */
 }
 
 /* Menu List */
 .menu {
-    list-style: none; /* Removes bullets */
+    list-style: none;
+    /* Removes bullets */
     margin: 0;
     padding: 0;
-    display: flex; /* Aligns items horizontally */
-    justify-content: flex-end; /* Aligns the menu items to the right */
-    gap: 15px; /* Adds space between menu items */
-    padding-right: 20px; /* Adds spacing on the right side */
+    display: flex;
+    /* Aligns items horizontally */
+    justify-content: flex-end;
+    /* Aligns the menu items to the right */
+    gap: 15px;
+    /* Adds space between menu items */
+    padding-right: 20px;
+    /* Adds spacing on the right side */
 }
 
 /* Menu Items */
 .menu li {
-    display: inline; /* Ensures the items align horizontally */
+    display: inline;
+    /* Ensures the items align horizontally */
 }
 
 /* Menu Links */
 .menu a {
-    text-decoration: none; /* Removes underline */
-    color: white; /* White text */
-    padding: 5px 15px; /* Adds padding for clickable area */
-    border-radius: 5px; /* Rounded corners for buttons */
-    transition: background-color 0.1s; /* Smooth hover effect */
+    text-decoration: none;
+    /* Removes underline */
+    color: white;
+    /* White text */
+    padding: 5px 15px;
+    /* Adds padding for clickable area */
+    border-radius: 5px;
+    /* Rounded corners for buttons */
+    transition: background-color 0.1s;
+    /* Smooth hover effect */
 }
 
 /* Hover Effect */
 .menu a:hover {
-    background-color: #555; /* Changes background on hover */
+    background-color: #555;
+    /* Changes background on hover */
 }
 
 table {
@@ -70,7 +88,8 @@ table {
 
 /* Content Below Menu */
 h1 {
-    margin-top: 60px; /* Adds space below the fixed menu */
+    margin-top: 60px;
+    /* Adds space below the fixed menu */
     text-align: center;
     margin-bottom: 10px;
 }
@@ -82,37 +101,53 @@ h2 {
 }
 
 p {
-    width: 100%; /* Makes the paragraph take up the entire width of the page */
-    text-align: justify; /* Aligns the text on both sides */
-    padding: 0 10px; /* Adds 10px padding to the left and right sides */
-    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+    width: 100%;
+    /* Makes the paragraph take up the entire width of the page */
+    text-align: justify;
+    /* Aligns the text on both sides */
+    padding: 0 10px;
+    /* Adds 10px padding to the left and right sides */
+    box-sizing: border-box;
+    /* Ensures padding doesn't affect the overall width */
 }
 
 .container {
-    display: flex; /* Use flexbox for the layout */
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-    gap: 20px; /* Add space between columns */
+    display: flex;
+    /* Use flexbox for the layout */
+    flex-wrap: wrap;
+    /* Allow items to wrap on smaller screens */
+    gap: 20px;
+    /* Add space between columns */
     margin: 20px;
 }
 
 .column {
-    flex: 1; /* Allow each column to grow and take up equal space */
-    min-width: 250px; /* Ensure columns do not shrink too small */
-    box-sizing: border-box; /* Include padding in the element's total width */
+    flex: 1;
+    /* Allow each column to grow and take up equal space */
+    min-width: 250px;
+    /* Ensure columns do not shrink too small */
+    box-sizing: border-box;
+    /* Include padding in the element's total width */
 }
 
 @media (max-width: 768px) {
     .column {
-        flex: 1 0 100%; /* Stack the columns vertically */
+        flex: 1 0 100%;
+        /* Stack the columns vertically */
     }
 }
 
 a {
-    text-decoration: none; /* Removes underline */
-    color: black; /* White text */
-    padding: 5px 15px; /* Adds padding for clickable area */
-    border-radius: 5px; /* Rounded corners for buttons */
-    transition: background-color 0.1s; /* Smooth hover effect */
+    text-decoration: none;
+    /* Removes underline */
+    color: black;
+    /* White text */
+    padding: 5px 15px;
+    /* Adds padding for clickable area */
+    border-radius: 5px;
+    /* Rounded corners for buttons */
+    transition: background-color 0.1s;
+    /* Smooth hover effect */
 }
 
 a:hover {
@@ -121,50 +156,62 @@ a:hover {
 
 /* Box around the list */
 .team-list {
-    border: 2px solid black; /* Solid border around the list */
-    padding: 10px; /* Space between the border and the text */
-    width: fit-content; /* Adjust the box size to fit the content */
-    margin: 20px auto; /* Center the list horizontally */
-    background-color: #f9f9f9; /* Light background for contrast */
+    border: 2px solid black;
+    /* Solid border around the list */
+    padding: 10px;
+    /* Space between the border and the text */
+    width: fit-content;
+    /* Adjust the box size to fit the content */
+    margin: 20px auto;
+    /* Center the list horizontally */
+    background-color: #f9f9f9;
+    /* Light background for contrast */
 }
 
 /* Styling for the list */
 .team-list ol {
-    padding-left: 20px; /* Indent the list */
-    margin: 0; /* Remove extra margin around the list */
+    padding-left: 20px;
+    /* Indent the list */
+    margin: 0;
+    /* Remove extra margin around the list */
 }
 
 /* Styling for list items */
 .team-list li {
-    font-weight: bold; /* Makes the text bold */
+    font-weight: bold;
+    /* Makes the text bold */
 }
 
 .image-container {
     display: flex;
-    gap: 1cm; 
-    flex-wrap: wrap; 
+    gap: 1cm;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .image-container img {
-    width: 150px; 
-    height: 130px; 
-    border: 2px solid black; 
+    width: 150px;
+    height: 130px;
+    border: 2px solid black;
 }
+
 form {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 300px;
 }
+
 label {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-input[type="text"], select {
+input[type="text"],
+select {
     padding: 10px;
-    background-color: #d0e7ff; /* Blue background */
+    background-color: #d0e7ff;
+    /* Blue background */
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -175,7 +222,8 @@ input[type="text"], select {
 }
 
 button {
-    background-color: #28a745; /* Green background */
+    background-color: #28a745;
+    /* Green background */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -184,5 +232,6 @@ button {
 }
 
 button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838;
+    /* Darker green on hover */
 }
