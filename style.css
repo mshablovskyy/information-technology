@@ -1,0 +1,96 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Menu */
+nav {
+    position: fixed; /* Sticks the menu to the top of the page */
+    top: 0;
+    left: 0;
+    width: 100%; /* Makes the menu span the entire width */
+    background-color: #333; /* Dark background */
+    padding: 10px 0; /* Adds some vertical padding */
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+/* Menu List */
+.menu {
+    list-style: none; /* Removes bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Aligns items horizontally */
+    justify-content: flex-end; /* Aligns the menu items to the right */
+    gap: 15px; /* Adds space between menu items */
+    padding-right: 20px; /* Adds spacing on the right side */
+}
+
+/* Menu Items */
+.menu li {
+    display: inline; /* Ensures the items align horizontally */
+}
+
+/* Menu Links */
+.menu a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* White text */
+    padding: 5px 15px; /* Adds padding for clickable area */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.1s; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.menu a:hover {
+    background-color: #555; /* Changes background on hover */
+}
+
+/* Content Below Menu */
+h1 {
+    margin-top: 50px; /* Adds space below the fixed menu */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    width: 100%; /* Makes the paragraph take up the entire width of the page */
+    text-align: justify; /* Aligns the text on both sides */
+    padding: 0 10px; /* Adds 10px padding to the left and right sides */
+    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+}
+
+.container {
+    display: flex; /* Use flexbox for the layout */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 20px; /* Add space between columns */
+    margin: 20px;
+}
+
+.column {
+    flex: 1; /* Allow each column to grow and take up equal space */
+    min-width: 250px; /* Ensure columns do not shrink too small */
+    box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+@media (max-width: 768px) {
+    .column {
+        flex: 1 0 100%; /* Stack the columns vertically */
+    }
+}
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: black; /* White text */
+    padding: 5px 15px; /* Adds padding for clickable area */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.1s; /* Smooth hover effect */
+}
+
+a:hover {
+    background-color: lightgray;
+}
